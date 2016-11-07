@@ -1,0 +1,8 @@
+ol {
+    padding: 10px;
+}
+
+ol li.checked {
+    color: #888;
+    text-decoration: line-through;
+}

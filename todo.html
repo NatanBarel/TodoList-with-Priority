@@ -1,0 +1,23 @@
+<html>
+<head>
+   <link rel="stylesheet" href="styles.css"> 
+</head>        
+<body>        
+<div id="inputDIV">
+  <input type="text" id="Description" placeholder="Add a task here">
+  priority :   
+<select id="prioritySelector"><option value = "Urgent">Urgent</option><option value = "Critical">Critical</option><option value = "Normal" selected>Normal</option><option value = "If You Can">If You Can</option></select>
+<button id="addBtn">Add</button>  
+</div>
+<hr>
+<ol id="ItemList">
+</ol>
+<script src = "app.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function()
+ {
+     init();
+ }, false);
+</script> 
+</body>
+</html>
