@@ -6,3 +6,8 @@ ol li.checked {
     color: #888;
     text-decoration: line-through;
 }
+
+ol li.newest
+{
+  color: #FF0000;
+}
